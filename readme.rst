@@ -14,6 +14,17 @@ SPHERE-OB can be installed with pip + git using::
 Alternatively, the repository can be manually downloaded and installed using the install script, i.e., by navigating to the SPHERE-OB folder and running::
 
 	python setup.py install
+	
+If you are an anaconda user and do not have python added to path you can install the conda environment by downloading this directory, navigating to the directory in windows explorer and running the install_update.bat. After this, open an anaconda prompt and activate the environment with the following::
+	
+	conda activate sphereob
+	
+Next navigate to the SphereOverburdenProject directory in the anaconda prompt and run::
+
+	python sphereob.py
+
+	
+
 
 
 Dependencies
