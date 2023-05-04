@@ -14,6 +14,10 @@ SPHERE-OB can be installed with pip + git using::
 Alternatively, the repository can be manually downloaded and installed using the install script, i.e., by navigating to the SPHERE-OB folder and running::
 
 	python setup.py install
+
+Once installed, the GUI can be launched from the command line as::
+
+	SPHEREOB
 	
 If you are an anaconda user and do not have python added to path you can install the conda environment by downloading this directory, navigating to the directory in windows explorer and running the install_update.bat. After this, open an anaconda prompt and activate the environment with the following::
 	
@@ -22,8 +26,6 @@ If you are an anaconda user and do not have python added to path you can install
 Next navigate to the SphereOverburdenProject directory in the anaconda prompt and run::
 
 	python sphereob.py
-
-	
 
 
 
@@ -36,16 +38,6 @@ Dependencies
 * pyqt5
 * pandas
 
-Installing SPHERE-OB through pip + git will result in these libraries being installed in your current python environment.
-
-Getting Started
-====
-
-Once installed, the GUI can be launched from the command line as::
-
-	SPHEREOB
-
-The program will launch and the user can now begin plotting airborne EM responses for varying survey configurations and geologic models.
 
 Documentation
 ====
