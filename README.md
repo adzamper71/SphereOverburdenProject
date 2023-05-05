@@ -11,7 +11,7 @@ If python is installed on your system, Sphereob can be installed with pip + git 
 
 	pip install git+https://github.com/adzamper71/SphereOverburdenProject
 
-Alternatively, the repository can be manually downloaded and installed using the install script, i.e., by navigating to the SPHERE-OB folder, opening a python / anaconda prompt in administrator and running::
+Alternatively, the repository can be manually downloaded and installed using the install script, i.e., by navigating to the ShereOverburdenProject folder, opening a python / anaconda prompt in administrator and running::
 
 	python setup.py install
 
